@@ -81,6 +81,7 @@ namespace VPN
                     path_textBox.Visible = true;
                     path_textBox.Text = shortcut_path;
                     browse_butt.Visible = true;
+                    AdditShortCut_checkBox.Visible = false;
 
                     break;
                 case 4:
@@ -136,12 +137,14 @@ namespace VPN
 
                     label3.Top = 260;
                     label3.Left = 250;
+                    label3.BackColor = System.Drawing.Color.White;
 
                     next_butt.Text = "Finish";
                     pictureBox1.Visible = true;
                     launch_cb.Visible = true;
                     progressBar1.Visible = false;
                     pictureBox1.Visible = true;
+                    background_textBox.Visible = false;
                     //pictureBox2.Visible = true;
                     pictureBox1.Image = Image.FromFile(@"C:\Users\Andrew\Desktop\vpn_winform\VPN\logos\big_logo.png");
                     pictureBox1.Top = 74;

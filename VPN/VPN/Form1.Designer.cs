@@ -48,7 +48,9 @@ namespace VPN
             this.next_butt = new System.Windows.Forms.Button();
             this.back_butt = new System.Windows.Forms.Button();
             this.launch_cb = new System.Windows.Forms.CheckBox();
+            this.background_textBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.background_textBox)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -74,8 +76,9 @@ namespace VPN
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Gainsboro;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(36, 125);
+            this.label3.Location = new System.Drawing.Point(36, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(621, 46);
             this.label3.TabIndex = 2;
@@ -84,7 +87,7 @@ namespace VPN
             // 
             // LicenseTextBox1
             // 
-            this.LicenseTextBox1.Location = new System.Drawing.Point(36, 174);
+            this.LicenseTextBox1.Location = new System.Drawing.Point(36, 184);
             this.LicenseTextBox1.Name = "LicenseTextBox1";
             this.LicenseTextBox1.ReadOnly = true;
             this.LicenseTextBox1.Size = new System.Drawing.Size(703, 229);
@@ -94,27 +97,29 @@ namespace VPN
             // radioButton_agree
             // 
             this.radioButton_agree.AutoSize = true;
+            this.radioButton_agree.BackColor = System.Drawing.Color.Gainsboro;
             this.radioButton_agree.Checked = true;
             this.radioButton_agree.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.radioButton_agree.Location = new System.Drawing.Point(36, 431);
+            this.radioButton_agree.Location = new System.Drawing.Point(36, 419);
             this.radioButton_agree.Name = "radioButton_agree";
             this.radioButton_agree.Size = new System.Drawing.Size(209, 27);
             this.radioButton_agree.TabIndex = 4;
             this.radioButton_agree.TabStop = true;
             this.radioButton_agree.Text = "I accept the agreement";
-            this.radioButton_agree.UseVisualStyleBackColor = true;
+            this.radioButton_agree.UseVisualStyleBackColor = false;
             this.radioButton_agree.CheckedChanged += new System.EventHandler(this.radioButton_agree_CheckedChanged);
             // 
             // radioButton_disagree
             // 
             this.radioButton_disagree.AutoSize = true;
+            this.radioButton_disagree.BackColor = System.Drawing.Color.Gainsboro;
             this.radioButton_disagree.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.radioButton_disagree.Location = new System.Drawing.Point(36, 462);
+            this.radioButton_disagree.Location = new System.Drawing.Point(36, 452);
             this.radioButton_disagree.Name = "radioButton_disagree";
             this.radioButton_disagree.Size = new System.Drawing.Size(265, 27);
             this.radioButton_disagree.TabIndex = 5;
             this.radioButton_disagree.Text = "I do not accept the agreement";
-            this.radioButton_disagree.UseVisualStyleBackColor = true;
+            this.radioButton_disagree.UseVisualStyleBackColor = false;
             this.radioButton_disagree.CheckedChanged += new System.EventHandler(this.radioButton_disagree_CheckedChanged);
             // 
             // pictureBox1
@@ -140,8 +145,9 @@ namespace VPN
             // FreeSpace_label
             // 
             this.FreeSpace_label.AutoSize = true;
+            this.FreeSpace_label.BackColor = System.Drawing.Color.Gainsboro;
             this.FreeSpace_label.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FreeSpace_label.Location = new System.Drawing.Point(36, 508);
+            this.FreeSpace_label.Location = new System.Drawing.Point(36, 505);
             this.FreeSpace_label.Name = "FreeSpace_label";
             this.FreeSpace_label.Size = new System.Drawing.Size(333, 23);
             this.FreeSpace_label.TabIndex = 6;
@@ -160,9 +166,9 @@ namespace VPN
             // browse_butt
             // 
             this.browse_butt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.browse_butt.Location = new System.Drawing.Point(651, 219);
+            this.browse_butt.Location = new System.Drawing.Point(640, 214);
             this.browse_butt.Name = "browse_butt";
-            this.browse_butt.Size = new System.Drawing.Size(94, 29);
+            this.browse_butt.Size = new System.Drawing.Size(121, 37);
             this.browse_butt.TabIndex = 7;
             this.browse_butt.Text = "Browse";
             this.browse_butt.UseVisualStyleBackColor = true;
@@ -172,24 +178,24 @@ namespace VPN
             // AdditShortCut_checkBox
             // 
             this.AdditShortCut_checkBox.AutoSize = true;
+            this.AdditShortCut_checkBox.BackColor = System.Drawing.Color.Gainsboro;
             this.AdditShortCut_checkBox.Checked = true;
             this.AdditShortCut_checkBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.AdditShortCut_checkBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.AdditShortCut_checkBox.Location = new System.Drawing.Point(36, 220);
+            this.AdditShortCut_checkBox.Location = new System.Drawing.Point(36, 230);
             this.AdditShortCut_checkBox.Name = "AdditShortCut_checkBox";
             this.AdditShortCut_checkBox.Size = new System.Drawing.Size(231, 27);
             this.AdditShortCut_checkBox.TabIndex = 9;
             this.AdditShortCut_checkBox.Text = "Create a Desktop shortcut";
-            this.AdditShortCut_checkBox.UseVisualStyleBackColor = true;
+            this.AdditShortCut_checkBox.UseVisualStyleBackColor = false;
             this.AdditShortCut_checkBox.Visible = false;
             this.AdditShortCut_checkBox.CheckedChanged += new System.EventHandler(this.AdditShortCut_checkBox_CheckedChanged);
             // 
             // final_richTextBox
             // 
-            this.final_richTextBox.BackColor = System.Drawing.Color.White;
-            this.final_richTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.final_richTextBox.BackColor = System.Drawing.SystemColors.Control;
             this.final_richTextBox.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.final_richTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.final_richTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.final_richTextBox.Location = new System.Drawing.Point(36, 200);
             this.final_richTextBox.Name = "final_richTextBox";
             this.final_richTextBox.ReadOnly = true;
@@ -201,7 +207,7 @@ namespace VPN
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(36, 194);
+            this.progressBar1.Location = new System.Drawing.Point(36, 205);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(703, 38);
             this.progressBar1.TabIndex = 13;
@@ -209,12 +215,14 @@ namespace VPN
             // 
             // launch_checkBox
             // 
+            this.launch_checkBox.BackColor = System.Drawing.Color.White;
             this.launch_checkBox.Checked = true;
             this.launch_checkBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.launch_checkBox.Location = new System.Drawing.Point(0, 0);
             this.launch_checkBox.Name = "launch_checkBox";
             this.launch_checkBox.Size = new System.Drawing.Size(104, 24);
             this.launch_checkBox.TabIndex = 0;
+            this.launch_checkBox.UseVisualStyleBackColor = false;
             // 
             // next_butt
             // 
@@ -241,6 +249,7 @@ namespace VPN
             // launch_cb
             // 
             this.launch_cb.AutoSize = true;
+            this.launch_cb.BackColor = System.Drawing.Color.White;
             this.launch_cb.Checked = true;
             this.launch_cb.CheckState = System.Windows.Forms.CheckState.Checked;
             this.launch_cb.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -249,18 +258,27 @@ namespace VPN
             this.launch_cb.Size = new System.Drawing.Size(205, 27);
             this.launch_cb.TabIndex = 14;
             this.launch_cb.Text = "Launch VPN Unlimited";
-            this.launch_cb.UseVisualStyleBackColor = true;
+            this.launch_cb.UseVisualStyleBackColor = false;
             this.launch_cb.Visible = false;
+            // 
+            // background_textBox
+            // 
+            this.background_textBox.Image = ((System.Drawing.Image)(resources.GetObject("background_textBox.Image")));
+            this.background_textBox.Location = new System.Drawing.Point(-1, 125);
+            this.background_textBox.Name = "background_textBox";
+            this.background_textBox.Size = new System.Drawing.Size(799, 412);
+            this.background_textBox.TabIndex = 15;
+            this.background_textBox.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 592);
+            this.Controls.Add(this.browse_butt);
             this.Controls.Add(this.LicenseTextBox1);
             this.Controls.Add(this.AdditShortCut_checkBox);
             this.Controls.Add(this.launch_cb);
-            this.Controls.Add(this.browse_butt);
             this.Controls.Add(this.FreeSpace_label);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.radioButton_disagree);
@@ -274,10 +292,12 @@ namespace VPN
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.final_richTextBox);
+            this.Controls.Add(this.background_textBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Setup - VPN Unlimited ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.background_textBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,6 +323,7 @@ namespace VPN
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.CheckBox launch_checkBox;
         private System.Windows.Forms.CheckBox launch_cb;
+        private System.Windows.Forms.PictureBox background_textBox;
     }
 }
 
