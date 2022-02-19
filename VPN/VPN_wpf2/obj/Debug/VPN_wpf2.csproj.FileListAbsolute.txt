@@ -1,0 +1,15 @@
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\bin\Debug\VPN_wpf2.exe.config
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\bin\Debug\VPN_wpf2.exe
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\bin\Debug\VPN_wpf2.pdb
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\VPN_wpf2.csproj.AssemblyReference.cache
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\MainWindow.g.cs
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\App.g.cs
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\VPN_wpf2_MarkupCompile.cache
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\VPN_wpf2_MarkupCompile.lref
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\MainWindow.baml
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\VPN_wpf2.g.resources
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\VPN_wpf2.Properties.Resources.resources
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\VPN_wpf2.csproj.GenerateResource.cache
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\VPN_wpf2.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\VPN_wpf2.exe
+C:\Users\Andrew\Desktop\VPN_wpf2\VPN_wpf2\obj\Debug\VPN_wpf2.pdb
